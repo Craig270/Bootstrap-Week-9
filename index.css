@@ -1,13 +1,12 @@
 .parallax {
   background-image: url(coffeeImg\tiny.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: repeat;
   background-size: 600px 600px;
   min-height: 600px;
+  background-attachment: fixed;
+  background-position: center 70px;
+  background-repeat: no-repeat;
 }
 
-.cow {
-  width: 50%;
+img {
   margin: auto;
 }
