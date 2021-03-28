@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Grid Example</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .bards {
+        font-family: Train One;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1 bg-primary bards">1-primary</div>
+        <div class="col-lg-1 bg-secondary">2-secondary</div>
+        <div class="col-lg-1 bg-success">3-success</div>
+        <div class="col-lg-1 bg-danger">4-danger</div>
+        <div class="col-lg-1 bg-warning">5-warning</div>
+        <div class="col-lg-1 bg-info">6-info</div>
+        <div class="col-lg-1 bg-light">7-light</div>
+        <div class="col-lg-1 bg-dark">8-dark</div>
+        <div class="col-lg-1 bg-white">9-white</div>
+        <div class="col-lg-1 bg-warning">10</div>
+        <div class="col-lg-1 bg-warning">11</div>
+        <div class="col-lg-1 bg-warning">12-1st row</div>
+      </div>
+      <di class="row">
+        <div class="col-md-8 bg-info">This is a big row md-8</div>
+        <div class="col-md-4 bg-info">This smaller row md-4</div>
+        <div class="col-md-12 bg-white">
+          This is a row made to look like a space in content
+        </div>
+        <div class="col-md-12 bg-white">
+          This is a row made to look like a space in content
+        </div>
+        <div class="col-md-12 bg-white">
+          This is a row made to look like a space in content
+          <p class="text-primary">.text-primary</p>
+          <p class="text-secondary">.text-secondary</p>
+          <p class="text-success">.text-success</p>
+          <p class="text-danger">.text-danger</p>
+          <p class="text-warning">.text-warning</p>
+          <p class="text-info">.text-info</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-dark">.text-dark</p>
+          <p class="text-muted">.text-muted</p>
+          <p class="text-white bg-dark">.text-white</p>
+        </div>
+        <div class="col-md-12 bg-dark">
+          This is the last row of this container
+        </div>
+      </di>
+    </div>
+    These words are not part of a container or div
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-1 bg-primary font-weight-bold">
+          1-primary container-flow <br />-<br />font-weight-bold
+        </div>
+        <div class="col-lg-1 bg-secondary font-weight-bolder">
+          2-secondary container-flow <br />-<br />font-weight-bolder
+        </div>
+        <div class="col-lg-1 bg-success font-italic">
+          3-success container-flow <br />-<br />font-italic
+        </div>
+        <div class="col-lg-1 bg-danger font-weight-light">
+          4-danger container-flow <br />-<br />font-weight-light
+        </div>
+        <div class="col-lg-1 bg-warning font-weight-lighter">
+          5-warning container-flow <br />-<br />font-weight-lighter
+        </div>
+        <div class="col-lg-1 bg-info font-weight-normal">
+          6-info container-flow <br />-<br />font-weight-normal
+        </div>
+        <div class="col-lg-1 bg-light lead">
+          7-light container-flow <br />-<br />lead
+        </div>
+        <div class="col-lg-1 bg-dark small">
+          8-dark container-flow <br />-<br />small
+        </div>
+        <div class="col-lg-1 bg-white text-left">
+          9-white container-flow <br />-<br />text-left
+        </div>
+        <div class="col-lg-1 bg-primary text-*-left">
+          10-primary container-flow <br />-<br />text-*-left Indicates
+          center-aligned text on small, medium, large or xlarge screens
+        </div>
+        <div class="col-lg-1 bg-secondary text-monospace">
+          11-secondary container-flow <br />-<br />text-monospace
+        </div>
+        <div class="col-lg-1 bg-warning pre-scrollable">
+          12-1st row container-flow <br />-<br />pre-scrollable
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 bg-success">
+          This is the start of a new container. This one is fluid, that's what
+          makes it go to the end of the screen. Size 12 to take up the entire
+          colume
+        </div>
+        <div class="col-lg-6 bg-info">
+          This section takes up half of the top dive ^ (parent div) Size 6
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 bg-dark">
+          This is the first row on the new container. Size 12, none fluid.
+        </div>
+        <div class="col-md-12 bg-dark">
+          This is the second row on the new container. Size 12, none fluid.
+          Outer columns
+          <div class="col-md-12 bg-primary">Inner column size 12</div>
+          <div class="col-md-12 bg-secondary">2nd inner column size 12</div>
+          <div class="col-md-6 bg-danger">
+            3nd inner column size 6
+            <div class="col-md-12 bg-danger">
+              1st in 3nd inner column size 12
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
